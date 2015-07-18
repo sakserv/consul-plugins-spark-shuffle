@@ -1,0 +1,9 @@
+{
+  "name": "spark-shuffle-recipe",
+  "description": "",
+  "properties": {
+  },
+  "plugins": {
+      "https://github.com/keyki/consul-plugins-spark-shuffle.git": "ALL_NODES"
+  }
+}

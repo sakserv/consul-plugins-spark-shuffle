@@ -1,0 +1,14 @@
+: ${LOGFILE:=/tmp/spark_shuffle.log}
+: ${DEBUG:=1}
+
+
+main(){
+  debug "Copy Spark shuffle jar"
+  cp /usr/hdp/current/spark-client/lib/spark-*-yarn-shuffle.jar /usr/hdp/2.3.*/hadoop-yarn/lib/
+}
+
+debug(){
+  [[ "$DEBUG" ]] && echo "[DEBUG] $*" >> $LOGFILE
+}
+
+[[ "$0" == "$BASH_SOURCE" ]] && main "$@"
