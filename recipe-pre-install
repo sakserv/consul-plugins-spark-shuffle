@@ -17,7 +17,7 @@ main(){
   fi
 
   debug "Copy Spark shuffle jar"
-  cd $yarn_lib && wget $shuffle_jar_url
+  cd $yarn_lib && wget -N $shuffle_jar_url
 
 }
 

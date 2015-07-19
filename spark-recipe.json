@@ -4,6 +4,6 @@
   "properties": {
   },
   "plugins": {
-      "https://github.com/keyki/consul-plugins-spark-shuffle.git": "ALL_NODES"
+      "https://github.com/sakserv/consul-plugins-spark-shuffle.git": "ALL_NODES"
   }
 }
