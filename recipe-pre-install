@@ -4,8 +4,8 @@
 
 main(){
 
-  shuffle_jar_url=https://raw.githubusercontent.com/sakserv/consul-plugins-spark-shuffle/master/spark-1.3.1.2.3.0.0-2557-yarn-shuffle.jar
-  version=2.3.0.0-2557
+  shuffle_jar_url=https://raw.githubusercontent.com/sakserv/consul-plugins-spark-shuffle/master/spark-1.4.1.2.3.2.0-2950-yarn-shuffle
+  version=2.3.2.0-2950
   yarn_lib=/usr/hdp/${version}/hadoop-yarn/lib/
 
   debug "Install wget"
